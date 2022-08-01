@@ -1,3 +1,16 @@
+# v17.5.1 (Mon Aug 01 2022)
+
+#### 🐛 Bug Fix
+
+- Use local storage set fix [#1](https://github.com/opencreek/react-use/pull/1) ([@cheemcheem](https://github.com/cheemcheem) [@reckter](https://github.com/reckter))
+
+#### Authors: 2
+
+- Hannes Güdelhöfer ([@reckter](https://github.com/reckter))
+- Kathan Cheema ([@cheemcheem](https://github.com/cheemcheem))
+
+---
+
 # [17.4.0](https://github.com/streamich/react-use/compare/v17.3.3...v17.4.0) (2022-05-20)
 
 
