@@ -1,3 +1,15 @@
+# v17.5.2 (Thu Aug 04 2022)
+
+#### 🐛 Bug Fix
+
+- fix: Fix types of useSessionStorage not reflecting SetStateAction [#3](https://github.com/opencreek/react-use/pull/3) ([@reckter](https://github.com/reckter))
+
+#### Authors: 1
+
+- Hannes Güdelhöfer ([@reckter](https://github.com/reckter))
+
+---
+
 # [17.4.0](https://github.com/streamich/react-use/compare/v17.3.3...v17.4.0) (2022-05-20)
 
 
