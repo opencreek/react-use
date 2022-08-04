@@ -1,3 +1,15 @@
+# v17.5.3 (Thu Aug 04 2022)
+
+#### 🐛 Bug Fix
+
+- Auto config [#4](https://github.com/opencreek/react-use/pull/4) ([@reckter](https://github.com/reckter))
+
+#### Authors: 1
+
+- Hannes Güdelhöfer ([@reckter](https://github.com/reckter))
+
+---
+
 # [17.4.0](https://github.com/streamich/react-use/compare/v17.3.3...v17.4.0) (2022-05-20)
 
 
