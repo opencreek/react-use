@@ -11,7 +11,7 @@ export interface FullScreenOptions {
 }
 
 const useFullscreen = (
-  ref: RefObject<Element>,
+  ref: RefObject<Element | null>,
   enabled: boolean,
   options: FullScreenOptions = {}
 ): boolean => {

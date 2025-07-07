@@ -43,7 +43,7 @@ const Demo = ({ activeForwardRef }) => {
   );
 };
 
-const Child = forwardRef(({}, ref: MutableRefObject<HTMLTextAreaElement>) => {
+const Child = forwardRef(({}, ref: MutableRefObject<HTMLTextAreaElement | null>) => {
   const ensuredForwardRef = useEnsuredForwardedRef(ref);
 
   const [size, setSize] = useState(INITIAL_SIZE);

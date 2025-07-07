@@ -30,7 +30,7 @@ const Demo = () => {
 ## Reference
 
 ```ts
-useLockBodyScroll(locked: boolean = true, elementRef?: RefObject<HTMLElement>);
+useLockBodyScroll(locked: boolean = true, elementRef?: RefObject<HTMLElement | null>);
 ```
 
 - `locked` &mdash; Hook will lock scrolling on the body element if `true`, defaults to `true`

@@ -11,8 +11,8 @@ import {
 } from 'react';
 
 export default function useEnsuredForwardedRef<T>(
-  forwardedRef: MutableRefObject<T>
-): MutableRefObject<T> {
+  forwardedRef: MutableRefObject<T | null>
+): MutableRefObject<T | null> {
   const ensuredRef = useRef(forwardedRef && forwardedRef.current);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ export function ensuredForwardRef<T, P = {}>(
   Component: RefForwardingComponent<T, P>
 ): ForwardRefExoticComponent<PropsWithoutRef<P> & RefAttributes<T>> {
   return forwardRef((props: PropsWithChildren<P>, ref) => {
-    const ensuredRef = useEnsuredForwardedRef(ref as MutableRefObject<T>);
+    const ensuredRef = useEnsuredForwardedRef(ref as MutableRefObject<T | null>);
     return Component(props, ensuredRef);
   });
 }

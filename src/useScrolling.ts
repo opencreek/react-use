@@ -1,7 +1,7 @@
 import { RefObject, useEffect, useState } from 'react';
 import { off, on } from './misc/util';
 
-const useScrolling = (ref: RefObject<HTMLElement>): boolean => {
+const useScrolling = (ref: RefObject<HTMLElement | null>): boolean => {
   const [scrolling, setScrolling] = useState<boolean>(false);
 
   useEffect(() => {

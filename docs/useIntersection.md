@@ -30,7 +30,7 @@ const Demo = () => {
 
 ```ts
 useIntersection(
-  ref: RefObject<HTMLElement>,
+  ref: RefObject<HTMLElement | null>,
   options: IntersectionObserverInit,
 ): IntersectionObserverEntry | null;
 ```

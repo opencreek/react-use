@@ -32,5 +32,5 @@ const Demo = () => {
 ## Reference
 
 ```ts
-const latestState = useLatest = <T>(state: T): MutableRefObject<T>;
+const latestState = useLatest = <T>(state: T): MutableRefObject<T | null>;
 ```

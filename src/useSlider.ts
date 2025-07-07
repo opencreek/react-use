@@ -17,7 +17,7 @@ export interface Options {
   vertical?: boolean;
 }
 
-const useSlider = (ref: RefObject<HTMLElement>, options: Partial<Options> = {}): State => {
+const useSlider = (ref: RefObject<HTMLElement | null>, options: Partial<Options> = {}): State => {
   const isMounted = useMountedState();
   const isSliding = useRef(false);
   const valueRef = useRef(0);
