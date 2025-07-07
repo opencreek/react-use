@@ -10,7 +10,7 @@ export interface ContentRect {
   bottom: number;
 }
 
-const useMeasureDirty = (ref: RefObject<HTMLElement>): ContentRect => {
+const useMeasureDirty = (ref: RefObject<HTMLElement | null>): ContentRect => {
   const frame = useRef(0);
   const [rect, set] = useState({
     width: 0,

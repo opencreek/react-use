@@ -22,5 +22,5 @@ const Demo = () => {
 ## Reference
 
 ```ts
-useScrolling(ref: RefObject<HTMLElement>);
+useScrolling(ref: RefObject<HTMLElement | null>);
 ```

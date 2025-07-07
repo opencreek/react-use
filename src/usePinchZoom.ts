@@ -12,7 +12,7 @@ export enum ZoomState {
 
 export type ZoomStateType = ZoomState.ZOOMING_IN | ZoomState.ZOOMING_OUT;
 
-const usePinchZoom = (ref: RefObject<HTMLElement>) => {
+const usePinchZoom = (ref: RefObject<HTMLElement | null>) => {
   const cacheRef = useMemo<CacheRef>(
     () => ({
       evCache: [],

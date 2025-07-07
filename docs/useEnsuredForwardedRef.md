@@ -59,5 +59,5 @@ const Child = React.forwardRef((props, ref) => {
 ```ts
 ensuredForwardRef<T, P = {}>(Component: RefForwardingComponent<T, P>): ForwardRefExoticComponent<PropsWithoutRef<P> & RefAttributes<T>>;
 
-useEnsuredForwardedRef<T>(ref: React.MutableRefObject<T>): React.MutableRefObject<T>;
+useEnsuredForwardedRef<T>(ref: React.MutableRefObject<T | null>): React.MutableRefObject<T | null>;
 ```

@@ -46,8 +46,11 @@ const doc: Document | undefined = typeof document === 'object' ? document : unde
 let documentListenerAdded = false;
 
 export default !doc
-  ? function useLockBodyMock(_locked: boolean = true, _elementRef?: RefObject<HTMLElement>) {}
-  : function useLockBody(locked: boolean = true, elementRef?: RefObject<HTMLElement>) {
+  ? function useLockBodyMock(
+      _locked: boolean = true,
+      _elementRef?: RefObject<HTMLElement | null>
+    ) {}
+  : function useLockBody(locked: boolean = true, elementRef?: RefObject<HTMLElement | null>) {
       const bodyRef = useRef(doc!.body);
       elementRef = elementRef || bodyRef;
 

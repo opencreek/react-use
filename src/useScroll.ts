@@ -8,7 +8,7 @@ export interface State {
   y: number;
 }
 
-const useScroll = (ref: RefObject<HTMLElement>): State => {
+const useScroll = (ref: RefObject<HTMLElement | null>): State => {
   if (process.env.NODE_ENV === 'development') {
     if (typeof ref !== 'object' || typeof ref.current === 'undefined') {
       console.error('`useScroll` expects a single ref argument.');
