@@ -49,7 +49,7 @@ test('should return a valid ref when the forwarded ref is undefined', () => {
 
   const { ensuredRef } = result.current;
 
-  expect(ensuredRef.current.id).toBe('test_id');
+  expect(ensuredRef.current?.id).toBe('test_id');
 });
 
 test('should return a valid ref when using the wrapper function style', () => {
