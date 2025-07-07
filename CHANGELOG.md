@@ -1,3 +1,15 @@
+# v17.5.8 (Mon Jul 07 2025)
+
+#### 🐛 Bug Fix
+
+- Fix nullablity in react-19 [#8](https://github.com/opencreek/react-use/pull/8) ([@reckter](https://github.com/reckter))
+
+#### Authors: 1
+
+- Hannes Güdelhöfer ([@reckter](https://github.com/reckter))
+
+---
+
 # [17.6.0](https://github.com/streamich/react-use/compare/v17.5.1...v17.6.0) (2024-12-09)
 
 
