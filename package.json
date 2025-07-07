@@ -165,6 +165,10 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/react-use"

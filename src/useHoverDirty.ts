@@ -4,7 +4,7 @@ import { off, on } from './misc/util';
 // kudos: https://usehooks.com/
 const useHoverDirty = (ref: RefObject<Element> | null, enabled: boolean = true) => {
   if (process.env.NODE_ENV === 'development') {
-    if (typeof ref !== 'object' || typeof ref.current === 'undefined') {
+    if (ref != null && (typeof ref !== 'object' || typeof ref?.current === 'undefined')) {
       console.error('useHoverDirty expects a single ref argument.');
     }
   }

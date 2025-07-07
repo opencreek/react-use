@@ -44,11 +44,17 @@
 * correct peer dependencies ([d770587](https://github.com/streamich/react-use/commit/d77058729654397b68b251e8211bf0edc0b4ed50))
 
 ## [17.4.1](https://github.com/streamich/react-use/compare/v17.4.0...v17.4.1) (2023-11-28)
+# v17.5.7 (Thu Aug 04 2022)
 
+#### 🐛 Bug Fix
 
-### Bug Fixes
+- :wrench: [#5](https://github.com/opencreek/react-use/pull/5) ([@reckter](https://github.com/reckter))
 
-* 🐛 bump nano-css version ([812952b](https://github.com/streamich/react-use/commit/812952bb9ff004a844ec4285ad6c65d39597b11c))
+#### Authors: 1
+
+- Hannes Güdelhöfer ([@reckter](https://github.com/reckter))
+
+---
 
 # v17.5.7 (Thu Aug 04 2022)
 
